@@ -1,0 +1,18 @@
+[project]
+name = "employees-app"
+version = "0.0.1"
+dependencies = ["Flask", "Flask-WTF", "psycopg2-binary"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-mock",
+    "pytest-cov",
+    "selenium",
+    "webdriver-manager",
+    "ruff",
+    "build",
+    "setuptools",
+    "wheel",
+    "twine",
+]

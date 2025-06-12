@@ -1,0 +1,7 @@
+.coverage
+coverage.xml
+venv/
+videos/
+__pycache__/
+*.egg-info/
+dist/
